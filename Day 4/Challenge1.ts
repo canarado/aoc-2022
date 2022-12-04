@@ -6,11 +6,13 @@ export function readInput(input: string): number[][] {
 
     for(let i = 0; i < sbnl.length; i++) {
         let [split1, split2] = sbnl[i].split(",");
+        let [p1i1, p1i2] = split1.split("-");
+        let [p2i1, p2i2] = split2.split("-");
         res.push([
-            parseInt(split1.split("-")[0]),
-            parseInt(split1.split("-")[1]),
-            parseInt(split2.split("-")[0]),
-            parseInt(split2.split("-")[1])
+            parseInt(p1i1),
+            parseInt(p1i2),
+            parseInt(p2i1),
+            parseInt(p2i2)
         ]);
     }
 

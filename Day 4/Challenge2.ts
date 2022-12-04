@@ -1,7 +1,7 @@
 import { input } from "./input";
 import { readInput } from "./Challenge1";
 
-function solve(input: number[][]): number {
+export function solve(input: number[][]): number {
     let counter = 0;
 
     for(let i = 0; i < input.length; i++) {
