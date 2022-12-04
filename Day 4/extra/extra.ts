@@ -1,4 +1,4 @@
-import { input } from "./input";
+import { input } from "./input"
 import { readInput } from "../Challenge1";
 import { solve } from "../Challenge2";
 import { timePerf } from "../../util";
