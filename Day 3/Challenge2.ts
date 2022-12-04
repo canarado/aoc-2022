@@ -1,7 +1,7 @@
 import { input } from "./input";
 import { readInput, scoreLetter } from "./Challenge1";
 
-function chunkIntoThirds(input: string[]): string[][] {
+export function chunkIntoThirds(input: string[]): string[][] {
     let res: string[][] = [];
     let counter = 0;
     let ci = 0;
@@ -21,7 +21,7 @@ function chunkIntoThirds(input: string[]): string[][] {
     return res;
 }
 
-function solve(input: string[][]): number {
+export function solve(input: string[][]): number {
     let sum = 0;
 
     for(let i = 0; i < input.length; i++) {
@@ -36,7 +36,7 @@ function solve(input: string[][]): number {
     return sum;
 }
 
-console.log(solve(chunkIntoThirds(readInput(input))));
+//console.log(solve(chunkIntoThirds(readInput(input))));
 
 // i misunderstood day 2, but leaving this here cause funny
 // function splitIntoThirds(input: string): string[] {
