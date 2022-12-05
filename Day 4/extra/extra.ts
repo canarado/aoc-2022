@@ -142,9 +142,6 @@ let startSolveRead = Date.now();
 let solution = solveWhileRead(biginput);
 let endSolveRead = Date.now();
 
-let performanceSolveRead = timePerf(solveWhileRead, input);
-console.log('testing new util\n', performanceSolveRead)
-
 let solveReadTotal = (endSolveRead - startSolveRead) / 1000;
 
 console.log(
