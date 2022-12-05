@@ -1,5 +1,5 @@
 import { input } from "./input"
-import { biginput } from "./biginput";
+//import { biginput } from "./biginput";
 import { readInput } from "../Challenge1";
 import { solve } from "../Challenge2";
 import { timePerf } from "../../util";
